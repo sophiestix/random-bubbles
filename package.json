@@ -18,6 +18,6 @@
     },
     "homepage": "https://github.com/sophiestix/random-bubbles#readme",
     "devDependencies": {
-        "browser-sync": "^2.18.13"
+        "browser-sync": "^2.24.6"
     }
 }

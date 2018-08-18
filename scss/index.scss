@@ -4,3 +4,36 @@
     font-family: FaktPro-Blond;
     src: url(../fonts/FaktPro-Blond.ttf);
 }
+
+.bubble {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+/* Background Color */
+
+$violet: #B70084;
+$green: #218380;
+$orange: #FBB13C;
+$blue: #73D2DE;
+$black: #000000;
+$neutral: grey;
+
+$colors: $violet, $green, $orange, $blue, $black;
+$key: random( length($colors) );
+$nth: nth( $colors, $key );
+
+.bg-random {
+    background-color: $nth;
+}
+.bg-neutral {
+    background-color: $neutral;
+}
+
+@for $i from 1 through 1000 {
+  .bg-random:nth-child(#{$i}) {
+    // background-color: hsl(random(360),$s-min+random($s-max+-$s-min),$l-min+random($l-max+-$l-min));
+    // background-color: $nth;
+  }
+}

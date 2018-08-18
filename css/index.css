@@ -2,5 +2,16 @@
 @font-face {
   font-family: FaktPro-Blond;
   src: url(../fonts/FaktPro-Blond.ttf); }
+.bubble {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%; }
+
+/* Background Color */
+.bg-random {
+  background-color: #FBB13C; }
+
+.bg-neutral {
+  background-color: grey; }
 
 /*# sourceMappingURL=index.css.map */
