@@ -1,0 +1,23 @@
+{
+    "name": "random-bubbles",
+    "version": "1.0.0",
+    "description": "prototype",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "browser-sync start --directory --server  --files='*.js, *.html, css/*.css'"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/sophiestix/random-bubbles"
+    },
+    "author": "Zsofia Helmeczi",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/sophiestix/random-bubbles/issues"
+    },
+    "homepage": "https://github.com/sophiestix/random-bubbles#readme",
+    "devDependencies": {
+        "browser-sync": "^2.18.13"
+    }
+}
